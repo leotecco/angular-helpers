@@ -1,0 +1,16 @@
+<h1>Rxjs</h1>
+
+<hr>
+
+<h4>Test 1</h4>
+<input type="text" name="test1" (keyup)="changeTest1($event)">
+
+<button (click)="initTest1()">Init event</button>
+<button (click)="stopTest1()">Close event</button>
+
+<h4>Array test1</h4>
+<p *ngFor="let t of test1">
+  {{ t }}
+</p>
+
+<hr>
