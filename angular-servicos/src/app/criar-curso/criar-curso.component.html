@@ -1,0 +1,3 @@
+<p>Criar Curso</p>
+<input type="text" [value]="novoCurso" (input)="novoCurso = $event.target.value" (keyup.enter)="addCurso()">
+<button type="button" (click)="addCurso()">Criar</button>
